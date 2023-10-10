@@ -38,15 +38,11 @@ OpenCV
 #### Installation
 ###### Clone the repository
 git clone https://github.com/ctloo1983/Cycle_GANS_CNN.git
-
-###### Navigate to the project directory
 cd Cycle_GANS_CNN
-
-###### Install dependencies
 pip install -r requirements.txt
 
 #### Methodology
-For the computational backbone of this research, we leveraged the TensorFlow framework for ease of model implementation and scalability. The primary model employed was a Cycle Generative Adversarial Network (CycleGAN), formulated to work with unpaired image-to-image translation tasks. The dataset was sourced from the Kaggle competition entitled "I’m Something of a Painter Myself," which provided a robust set of 7,028 paired images—original photographs juxtaposed against their Monet-stylized counterparts.
+For the computational backbone of this research,we bought a Google Colab+ 500 compute units paid subscription and used the TensorFlow framework for ease of model implementation and scalability. The primary model employed was a Cycle Generative Adversarial Network (CycleGAN),followed by using other CNN architectures such as VGG-19 and ResNet-50, which was formulated to work with unpaired image-to-image translation tasks. The main dataset was sourced from the Kaggle competition entitled "I’m Something of a Painter Myself," which provided a robust set of 7,028 paired images—original photographs juxtaposed against their Monet-stylized counterparts. Another larger dataset was sourced from the internet which contained paintings of Candido, a Brazillian Painter.
 
 #### Model Architecture
 The CycleGAN architecture is compartmentalized into two distinct generators and two discriminators. 
@@ -74,4 +70,4 @@ There were instances where the color mapping was not accurate at all, leading to
 These could potentially be mitigated in future iterations through fine-tuning the model with a more extensive dataset, like the Candido paintings in one of the files above.
 
 #### License
-MIT License. See the LICENSE file for details.
+MIT License. 
