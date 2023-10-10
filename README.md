@@ -2,23 +2,23 @@
 
 Table of Contents:
 
-Introduction
+- Introduction
 
-Requirements
+- Requirements
 
-Installation
+- Installation
 
-Data Preparation
+- Data Preparation
 
-Training
+- Training
 
-Results
+- Results
 
-Limitations
+- Limitations
 
-Future Work
+- Future Work
 
-Citation
+- Citation
 
 License
 
