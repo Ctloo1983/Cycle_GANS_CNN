@@ -28,17 +28,26 @@ This repository contains the implementation of a HSLU Computer Vision project th
 
 
 #### Requirements
+
 Python 3.x
+
 PyTorch
+
 NumPy
+
 Matplotlib
+
 OpenCV
 
 
 #### Installation
-###### Clone the repository
+
+- Clone the repository:
+
 git clone https://github.com/ctloo1983/Cycle_GANS_CNN.git
+
 cd Cycle_GANS_CNN
+
 pip install -r requirements.txt
 
 #### Methodology
